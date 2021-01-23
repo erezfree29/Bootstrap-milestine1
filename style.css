@@ -1,0 +1,61 @@
+.one {
+  background-color: red;
+}
+
+.btn-warning {
+  font-size: 6px;
+  border: 1px solid rgba(240, 173, 78, 0.75);
+  border-radius: 40px;
+  background: yellow;
+  color: black;
+  font-weight: bold;
+}
+
+.two {
+  font-weight: bold;
+}
+
+.search {
+  font-weight: lighter;
+}
+
+.news {
+  color: white;
+}
+
+.news_red {
+  color: red;
+}
+
+@media (min-width: 320px) {
+  .row {
+    font-size: 5px;
+  }
+
+  .black {
+    color: black;
+    font-size: 5px;
+  }
+
+  .news_red {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .row {
+    font-size: 6px;
+  }
+}
+
+@media (min-width: 992px) {
+  .row {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row {
+    font-size: 7px;
+  }
+}
