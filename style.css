@@ -1,3 +1,7 @@
+.date {
+  color: white;
+}
+
 .container {
   width: 100%;
 }
@@ -39,6 +43,11 @@
 .four {
   display: flex;
   align-items: center;
+}
+
+.break::after {
+  content: "\a\a";
+  white-space: pre;
 }
 
 @media (min-width: 768px) {
