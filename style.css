@@ -1,3 +1,7 @@
+.container {
+  width: 100%;
+}
+
 .one {
   background-color: red;
 }
@@ -21,41 +25,65 @@
 
 .news {
   color: white;
+  font-size: 30px;
 }
 
 .news_red {
   color: red;
 }
 
-@media (min-width: 320px) {
-  .row {
-    font-size: 5px;
-  }
+.big {
+  font-size: 30px;
+}
 
-  .black {
-    color: black;
-    font-size: 3px;
-  }
-
-  .news_red {
-    font-size: 5px;
-  }
+.four {
+  display: flex;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
-  .row {
-    font-size: 6px;
+  .polaska,
+  .pakistan,
+  .usa,
+  .edition {
+    margin-right: -35px;
   }
 }
 
-@media (min-width: 992px) {
-  .row {
+@media (min-width: 1024px) {
+  .six {
     font-size: 10px;
   }
-}
 
-@media (min-width: 1200px) {
-  .row {
-    font-size: 7px;
+  .col-lg-1-1 {
+    max-width: 5%;
+  }
+
+  .col-lg-2-2 {
+    max-width: 6.8%;
+  }
+
+  .col-lg-3-3 {
+    max-width: 9.6%;
+  }
+
+  .col-lg-4-4 {
+    max-width: 10.4%;
+  }
+
+  .col-lg-5-5 {
+    max-width: 13.3%;
+  }
+
+  .col-lg-6-6 {
+    max-width: 15.3%;
+  }
+
+  .co-lg-2-21 {
+    max-width: 16%;
+  }
+
+  .col-lg-1-2 {
+    max-width: 10%;
   }
 }
