@@ -50,12 +50,114 @@
   white-space: pre;
 }
 
+.debra {
+  position: relative;
+}
+
+.square {
+  position: absolute;
+  background-color: white;
+  width: 23%;
+  top: 171px;
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+.debra img {
+  width: 100%;
+}
+
+.featured {
+  color: gray;
+  margin-top: 5%;
+}
+
+.mit {
+  display: relative;
+}
+
+.mit img {
+  width: 100%;
+}
+
+.rom {
+  top: 194px;
+}
+
+.heading {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 13px;
+  margin-top: 5%;
+}
+
+.hidden_mob {
+  display: none;
+}
+
+.fe {
+  top: 210px;
+}
+
+.turn img {
+  width: 90%;
+  height: 60%;
+}
+
+.turns {
+  display: flex;
+}
+
+.up {
+  margin-top: 1%;
+}
+
 @media (min-width: 768px) {
   .polaska,
   .pakistan,
   .usa,
   .edition {
     margin-right: -35px;
+  }
+
+  .square {
+    top: 194px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .hidden_mob {
+    display: block;
+  }
+
+  .top {
+    margin-top: 3%;
+  }
+
+  .jeff {
+    top: 156px;
+  }
+
+  .rom {
+    top: 255px;
+  }
+
+  .pos {
+    margin-top: -35px;
+  }
+
+  .posi {
+    margin-top: 3%;
+  }
+
+  .turn {
+    font-size: 12px;
   }
 }
 
@@ -94,5 +196,9 @@
 
   .col-lg-1-2 {
     max-width: 10%;
+  }
+
+  .square {
+    top: 210px;
   }
 }
