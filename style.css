@@ -110,6 +110,74 @@ footer {
   white-space: pre;
 }
 
+<<<<<<< HEAD
+=======
+.debra {
+  position: relative;
+}
+
+.square {
+  position: absolute;
+  background-color: white;
+  width: 23%;
+  top: 171px;
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+.debra img {
+  width: 100%;
+}
+
+.featured {
+  color: gray;
+  margin-top: 5%;
+}
+
+.mit {
+  display: relative;
+}
+
+.mit img {
+  width: 100%;
+}
+
+.rom {
+  top: 194px;
+}
+
+.heading {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 13px;
+  margin-top: 5%;
+}
+
+.hidden_mob {
+  display: none;
+}
+
+.fe {
+  top: 210px;
+}
+
+.turn img {
+  width: 90%;
+  height: 60%;
+}
+
+.turns {
+  display: flex;
+}
+
+.up {
+  margin-top: 1%;
+}
+>>>>>>> ba210ff9855029dc2d0acc502637e10b649c27a9
 
 @media (min-width: 768px) {
   .polaska,
@@ -117,6 +185,42 @@ footer {
   .usa,
   .edition {
     margin-right: -35px;
+  }
+
+  .square {
+    top: 194px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .hidden_mob {
+    display: block;
+  }
+
+  .top {
+    margin-top: 3%;
+  }
+
+  .jeff {
+    top: 156px;
+  }
+
+  .rom {
+    top: 255px;
+  }
+
+  .pos {
+    margin-top: -35px;
+  }
+
+  .posi {
+    margin-top: 3%;
+  }
+
+  .turn {
+    font-size: 12px;
   }
 }
 
@@ -157,6 +261,12 @@ footer {
     max-width: 10%;
   }
 
+<<<<<<< HEAD
   .news{
     font-size: 3.4rem;}
+=======
+  .square {
+    top: 210px;
+  }
+>>>>>>> ba210ff9855029dc2d0acc502637e10b649c27a9
 }
