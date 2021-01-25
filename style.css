@@ -110,8 +110,6 @@ footer {
   white-space: pre;
 }
 
-<<<<<<< HEAD
-=======
 .debra {
   position: relative;
 }
@@ -177,7 +175,6 @@ footer {
 .up {
   margin-top: 1%;
 }
->>>>>>> ba210ff9855029dc2d0acc502637e10b649c27a9
 
 .bheading {
   font-weight: bold;
@@ -279,12 +276,9 @@ footer {
     max-width: 10%;
   }
 
-<<<<<<< HEAD
   .news{
     font-size: 3.4rem;}
-=======
   .square {
     top: 210px;
   }
->>>>>>> ba210ff9855029dc2d0acc502637e10b649c27a9
 }
