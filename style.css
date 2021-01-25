@@ -1,3 +1,17 @@
+@font-face {
+  font-family: Fraunces-font;
+  src: url(./assets/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+  font-family: Fraunces-font-bold;
+  src: url(./assets/static/Fraunces_72pt\,Soft-Bold.ttf);
+}
+
+footer {
+  color: gray;
+}
+
 .date {
   color: white;
 }
@@ -7,7 +21,7 @@
 }
 
 .one {
-  background-color: red;
+  background-color: #f72210;
 }
 
 .btn-warning {
@@ -17,6 +31,15 @@
   background: yellow;
   color: black;
   font-weight: bold;
+}
+
+.nav-login-text {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.nav-subscribe-button {
+  font-size: 0.8rem;
 }
 
 .two {
@@ -29,20 +52,51 @@
 
 .news {
   color: white;
-  font-size: 30px;
+  font-size: 3.4rem;
+  font-weight: bolder;
+  font-family: Fraunces-font-bold, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .news_red {
-  color: red;
+  color: #f72210;
 }
 
 .big {
-  font-size: 30px;
+  font-size: 2.5rem;
+  font-family: Fraunces-font-bold, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.three {
+  font-size: 0.9rem;
+  font-style: bolder;
+  color: gray;
+}
+
+.footer-copyright {
+  font-size: 0.8rem;
+}
+
+.edition {
+  font-weight: bolder;
+}
+
+.polaska,
+.pakistan,
+.china,
+.romania,
+.usa,
+.edition {
+  font-size: 0.8rem;
 }
 
 .four {
   display: flex;
   align-items: center;
+}
+
+.six {
+  font-size: 0.8rem;
 }
 
 .break::after {
