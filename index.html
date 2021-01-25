@@ -1,101 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap 4 Example</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" 
-  integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-</head>
-<body>
-  <header>
-    <nav>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap 4 Example</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container-lg px-0">
+          <div
+            class="d-flex justify-content-between px-2 pb-1 align-items-center one"
+          >
+            <div class="d-none d-lg-block col-lg-4 date">
+              <span class="break"> </span> Wed Jan 20.2012
+            </div>
+            <div class="ml-1 news">Newsweek</div>
+            <div class="d-flex justify-content-around">
+              <div class="d-md-none"><i class="far fa-user"></i></div>
+              <div class="class">
+                <button
+                  type="button"
+                  class="d-md-none btn btn-warning nav-subscribe-button"
+                >
+                  SUBSCRIBE
+                </button>
+              </div>
+              <div class="col-1 d-md-none col-md-1 d-lg-none menu">
+                <img src="./assets/menu.svg" alt="menu" />
+              </div>
+            </div>
+
+            <div class="d-none d-md-block d-md-flex my-auto">
+              <span class="nav-login-text">Login</span>
+              <button
+                type="button"
+                class="btn btn-warning ml-2 nav-subscribe-button"
+              >
+                SUBSCRIBE
+              </button>
+              <img src="./assets/menu.svg" alt="menu" />
+            </div>
+          </div>
+          <div class="d-lg-flex justify-content-around two my-3">
+            <div class="d-none px-0 d-lg-block u-s-a">U.S.</div>
+            <div class="d-none px-0 d-lg-block world">World</div>
+            <div class="d-none px-0 d-lg-block business">Business</div>
+            <div class="d-none px-0 d-lg-block tech">Tech & Science</div>
+            <div class="d-none px-0 d-lg-block culture">Culture</div>
+            <div class="d-none px-0 d-lg-block newsgeek">Newsgeek</div>
+            <div class="d-none px-0 d-lg-block sports">Sports</div>
+            <div class="d-none px-0 d-lg-block health">Health</div>
+            <div class="d-none px-0 d-lg-block debate">The Debate</div>
+            <div class="d-none px-0 d-lg-block experts">Experts</div>
+            <div class="d-none px-0 d-lg-block vantage">Vantage</div>
+            <div class="d-none px-0 d-lg-block">
+              Search<i class="fas fa-search ml-1"></i>
+            </div>
+          </div>
+          <div class="d-lg-flex justify-content-around three my-2">
+            <div class="d-none d-lg-block">TRENDING</div>
+            <div class="d-none d-lg-block biden">JOE BIDEN</div>
+            <div class="d-none d-lg-block trump">DONALD TRUMP</div>
+            <div class="d-none d-lg-block corona">CORONAVIRUS</div>
+            <div class="d-none d-lg-block">STIMULUS PACKAGE</div>
+            <div class="d-none d-lg-block">VACCINE</div>
+            <div class="d-none d-lg-block">CAPITOL RIOTS</div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <footer>
       <div class="container">
-        <div class="row one">
-          <div class="d-none d-lg-block col-lg-4 date">
-            <span class="break">
-              </span>  Wed Jan 20.2012
+        <div class="row four">
+          <div class="col-12 col-md-auto news_red big">Newsweek</div>
+          <div class="col-12 col-md-auto mt-auto mb-2 footer-copyright">
+            <i class="fas fa-copyright fa-xs mr-2"></i>2021 NEWSWEEK DIGITAL LLC
           </div>
-          <div class="col-9 col-md-9 col-lg-5 news">Newsweek</div>
-          <div class="col-1 d-md-none"><i class="far fa-user"></i></div>
-          <div class="d-none d-md-block col-md-3 col-lg-3 my-auto mx-auto">
-            <span class="nav-login-text">Login</span>
-             <button type="button" class="btn btn-warning ml-4 nav-subscribe-button">SUBSCRIBE</button>
-          </div>
-          <div class="class">
-            <button type="button" class="d-md-none btn btn-warning nav-subscribe-button">SUBSCRIBE</button>
-          </div>
-          <div class="col-1 d-md-block col-md-1 d-lg-none menu">
-            <img src="./assets/menu.svg" alt="menu">
+          <div class="col-12 col-md-auto">
+            <span><i class="fab fa-facebook-f mx-1"></i></span>
+            <span><i class="fab fa-twitter mx-1"></i></span>
+            <span><i class="fas fa-camera mx-1"></i></span>
+            <span><i class="fab fa-linkedin-in mx-1"></i></span>
           </div>
         </div>
-        <div class="d-lg-flex justify-content-around two my-3">
-          <div class="d-none px-0 d-lg-block  u-s-a">U.S.</div>
-          <div class="d-none px-0 d-lg-block  world">World</div>
-          <div class="d-none px-0 d-lg-block  business">Business</div>
-          <div class="d-none px-0 d-lg-block  tech">Tech & Science</div>
-          <div class="d-none px-0 d-lg-block  culture">Culture</div>
-          <div class="d-none px-0 d-lg-block  newsgeek">Newsgeek</div>
-          <div class="d-none px-0 d-lg-block  sports">Sports</div>
-          <div class="d-none px-0 d-lg-block  health">Health</div>
-          <div class="d-none px-0 d-lg-block  debate">The Debate</div>
-          <div class="d-none px-0 d-lg-block  experts">Experts</div>
-          <div class="d-none px-0 d-lg-block  vantage">Vantage</div>
-          <div class="d-none px-0 d-lg-block ">Search<i class="fas fa-search ml-1"></i></div>
+        <div class="row my-2">
+          <div class="col-2 col-md-2 edition">Editions:</div>
+          <div class="col-2 px-0 col-md-2 usa">U.S. Edition</div>
+          <div class="col-2 px-0 col-md-1 china">日本</div>
+          <div class="col-2 px-0 col-md-2 pakistan">Pakistan</div>
+          <div class="col-2 px-0 col-md-2 polaska">Polaska</div>
+          <div class="col-2 px-0 col-md-1 romania">Romania</div>
         </div>
-        <div class="d-lg-flex justify-content-around three my-2">
-         <div class="d-none d-lg-block ">TRENDING</div>
-         <div class="d-none d-lg-block biden">JOE BIDEN</div>
-         <div class="d-none d-lg-block trump">DONALD TRUMP</div>
-         <div class="d-none d-lg-block corona">CORONAVIRUS</div>
-         <div class="d-none d-lg-block">STIMULUS PACKAGE</div>
-         <div class="d-none d-lg-block ">VACCINE</div>
-         <div class="d-none d-lg-block">CAPITOL RIOTS</div>
-        </div>
-       </div>
-    </nav>
-  </header>
-  <footer>
-    <div class="container">
-      <div class="row four">
-        <div class="col-12 col-md-3 news_red big">Newsweek</div>
-        <div class="col-12 col-md-7 mt-auto mb-2 footer-copyright"><i class="fas fa-copyright fa-xs mr-2"></i>2021 NEWSWEEK DIGITAL LLC</div>
-        <div class="col-12 col-md-2 ">
-          <span><i class="fab fa-facebook-f mx-1"></i></span>
-          <span><i class="fab fa-twitter mx-1"></i></span>
-          <span><i class="fas fa-camera mx-1"></i></span>
-          <span><i class="fab fa-linkedin-in mx-1"></i></span>
+        <div class="d-flex flex-wrap justify-content-around six">
+          <div class="footer-links px-2 py-1 about">About us</div>
+          <div class="footer-links px-2 py-1 corrections">Corrections</div>
+          <div class="footer-links px-2 py-1 contact_us">Contact us</div>
+          <div class="footer-links px-2 py-1 guidelines">Editorial guidlines</div>
+          <div class="footer-links px-2 py-1 advertise">Advertise</div>
+          <div class="footer-links px-2 py-1 copy">Copyright</div>
+          <div class="footer-links px-2 py-1 conditions">Terms and coditions</div>
+          <div class="footer-links px-2 py-1">Piracy policy</div>
+          <div class="footer-links px-2 py-1">Cookie policy</div>
+          <div class="footer-links px-2 py-1">Terms of sale</div>
+          <div class="footer-links px-2 py-1">Archive</div>
+          <div class="footer-links px-2 py-1">Annoucments</div>
+          <div class="footer-links px-2 py-1">GDPR Privacy Settings</div>
         </div>
       </div>
-      <div class="row my-2">
-        <div class="col-4 col-md-2 edition">Editions:</div>
-        <div class="col-4 px-0 col-md-2 usa">U.S. Edition</div>
-        <div class="col-4 px-0 col-md-1 china">日本</div>
-        <div class="col-4 px-0 col-md-2 pakistan">Pakistan</div>
-        <div class="col-4 px-0 col-md-2 polaska">Polaska</div>
-        <div class="col-4 px-0 col-md-1 romania">Romania</div>
-      </div>
-      <div class="d-lg-flex justify-content-around six">
-        <div class="footer-links about">About us</div>
-        <div class="footer-links corrections">Corrections</div>
-        <div class="footer-links contact_us">Contact us</div>
-        <div class="footer-links guidelines">Editorial guidlines</div>
-        <div class="footer-links advertise">Advertise</div>
-        <div class="footer-links copy">Copyright</div>
-        <div class="footer-links conditions">Terms and coditions</div>
-        <div class="footer-links">Piracy policy</div>
-        <div class="footer-links">Cookie policy</div>
-        <div class="footer-links">Terms of sale</div>
-        <div class="footer-links">Archive</div>
-        <div class="footer-links">Annoucments</div>
-        <div class="footer-links">GDPR Privacy Settings</div>
-      </div>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>

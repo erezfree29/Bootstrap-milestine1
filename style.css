@@ -22,6 +22,7 @@ footer {
 
 .one {
   background-color: #f72210;
+  width: 100%;
 }
 
 .btn-warning {
@@ -52,7 +53,7 @@ footer {
 
 .news {
   color: white;
-  font-size: 3.4rem;
+  font-size: 1.8rem;
   font-weight: bolder;
   font-family: Fraunces-font-bold, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -99,10 +100,16 @@ footer {
   font-size: 0.8rem;
 }
 
+.footer-links{
+  /* width: 15%;
+  display: inline-block; */
+}
+
 .break::after {
   content: "\a\a";
   white-space: pre;
 }
+
 
 @media (min-width: 768px) {
   .polaska,
@@ -113,7 +120,7 @@ footer {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1100px) {
   .six {
     font-size: 10px;
   }
@@ -149,4 +156,7 @@ footer {
   .col-lg-1-2 {
     max-width: 10%;
   }
+
+  .news{
+    font-size: 3.4rem;}
 }
