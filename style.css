@@ -170,6 +170,14 @@ footer {
   margin-top: 1%;
 }
 
+.bheading {
+  font-weight: bold;
+}
+
+.text {
+  font-size: 11px;
+}
+
 @media (min-width: 768px) {
   .polaska,
   .pakistan,
@@ -212,6 +220,16 @@ footer {
 
   .turn {
     font-size: 12px;
+  }
+
+  .more_stories {
+    margin-top: 6%;
+  }
+
+  .nstorty img {
+    width: 30%;
+    padding-right: 2%;
+    padding-top: 2%;
   }
 }
 
