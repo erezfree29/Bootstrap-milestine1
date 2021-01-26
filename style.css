@@ -105,7 +105,7 @@ footer {
   font-size: 0.8rem;
 }
 
-.footer-links{
+.footer-links {
   /* width: 15%;
   display: inline-block; */
 }
@@ -133,7 +133,7 @@ footer {
   height: 110px;
 }
 
-.gray {
+.gray-text {
   color: gray;
   font-size: 11px;
 }
@@ -164,7 +164,6 @@ footer {
   border-bottom: 2px solid gray;
 }
 
-
 .square {
   position: absolute;
   background-color: white;
@@ -175,19 +174,18 @@ footer {
   color: red;
 }
 
-.square-travel{
+.square-travel {
   position: absolute;
   background-color: lavender;
   width: 40%;
   bottom: 0;
   display: flex;
   justify-content: center;
-  color: black
-
+  color: black;
 }
 
-.relative-img{
-  position:relative;
+.relative-img {
+  position: relative;
 }
 
 .debra img {
@@ -199,13 +197,13 @@ footer {
   margin-top: 5%;
 }
 
-.content-my-turn{
+.content-my-turn {
   color: gray;
   font-size: 0.9rem;
   line-height: 1rem;
 }
 
-.images-my-turn{
+.images-my-turn {
   height: 150px;
 }
 
@@ -286,7 +284,7 @@ footer {
     margin-right: -35px;
   }
 
-   .turn img {
+  .turn img {
     width: 90%;
     height: 60%;
   }
@@ -403,13 +401,13 @@ footer {
     display: none;
   }
 
-  .news{
+  .news {
     font-size: 3.4rem;
   }
 
   .fe {
-  top: auto;
-}
+    top: auto;
+  }
 
   .square {
     top: auto;
