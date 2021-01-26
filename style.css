@@ -52,6 +52,10 @@ footer {
   font-size: 11px;
 }
 
+.images-float-left{
+  float: left;
+}
+
 .search {
   font-weight: lighter;
 }
