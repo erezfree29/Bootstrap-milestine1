@@ -52,8 +52,12 @@ footer {
   font-size: 11px;
 }
 
-.images-float-left{
+.images-float-left {
   float: left;
+}
+
+.images-float-right {
+  float: right;
 }
 
 .search {
