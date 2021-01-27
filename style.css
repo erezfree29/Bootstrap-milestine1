@@ -196,6 +196,10 @@ footer {
   position: relative;
 }
 
+article img {
+  width: 100%;
+}
+
 .debra img {
   width: 100%;
 }
@@ -282,6 +286,141 @@ footer {
 
 .nstorty img {
   width: 100%;
+}
+
+.apple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.image_banner {
+  position: relative;
+}
+
+.apple img {
+  width: 13%;
+}
+
+.image_banner img {
+  width: 100%;
+  height: 70vh;
+}
+
+.tdate {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  width: 50%;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.features {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.exec img {
+  width: 100%;
+}
+
+.cover_news {
+  display: flex;
+  align-items: center;
+}
+
+.nnews {
+  color: red;
+}
+
+.cover {
+  margin-left: 3%;
+  margin-right: 7%;
+  background-color: red;
+  color: white;
+  padding: 5%;
+}
+
+.fbi {
+  margin-left: 2%;
+  margin-bottom: 4%;
+}
+
+.wcover {
+  margin-left: 0.1%;
+  padding: 2%;
+}
+
+.apple_img {
+  padding-right: 1%;
+}
+
+.nusa {
+  font-size: 1.2rem;
+  color: red;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+
+.tiger {
+  display: flex;
+  padding-top: 10%;
+}
+
+.tiger img {
+  width: 40%;
+  padding-right: 5%;
+  height: 20vh;
+}
+
+.exnews img {
+  width: 100%;
+}
+
+.arabia img {
+  width: 100%;
+  height: 50vh;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-secondary {
+  background-color: red;
+}
+
+.btn-primary {
+  color: gray;
+  background-color: transparent;
+  border-color: gray;
+  margin-right: 3%;
+}
+
+.nmobile img {
+  width: 100%;
+  height: 30vh;
+}
+
+.buttons {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.hidden {
+  display: block;
 }
 
 @media (min-width: 768px) {
