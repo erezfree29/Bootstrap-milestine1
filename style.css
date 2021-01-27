@@ -1,0 +1,529 @@
+@font-face {
+  font-family: Fraunces-font;
+  src: url(./assets/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+  font-family: Fraunces-font-bold;
+  src: url(./assets/static/Fraunces_72pt\,Soft-Bold.ttf);
+}
+
+footer {
+  color: gray;
+}
+
+.date {
+  color: white;
+}
+
+.container {
+  width: 100%;
+}
+
+.one {
+  background-color: #f72210;
+  width: 100%;
+}
+
+.btn-warning {
+  font-size: 6px;
+  border: 1px solid rgba(240, 173, 78, 0.75);
+  border-radius: 40px;
+  background: yellow;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-login-text {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.nav-subscribe-button {
+  font-size: 0.8rem;
+}
+
+.two {
+  font-weight: bold;
+}
+
+.gray {
+  color: gray;
+  font-size: 11px;
+}
+
+.images-float-left {
+  float: left;
+}
+
+.images-float-right {
+  float: right;
+}
+
+.search {
+  font-weight: lighter;
+}
+
+.news {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  font-family: Fraunces-font-bold, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.news_red {
+  color: #f72210;
+}
+
+.big {
+  font-size: 2.5rem;
+  font-family: Fraunces-font-bold, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.three {
+  font-size: 0.9rem;
+  font-style: bolder;
+  color: gray;
+}
+
+.footer-copyright {
+  font-size: 0.8rem;
+}
+
+.edition {
+  font-weight: bolder;
+}
+
+.polaska,
+.pakistan,
+.china,
+.romania,
+.usa,
+.edition {
+  font-size: 0.8rem;
+}
+
+.four {
+  display: flex;
+  align-items: center;
+}
+
+.six {
+  font-size: 0.8rem;
+}
+
+.footer-links {
+  /* width: 15%;
+  display: inline-block; */
+}
+
+.break::after {
+  content: "\a\a";
+  white-space: pre;
+}
+
+.debra {
+  position: relative;
+}
+
+.tdebate {
+  margin-top: 20px;
+  border-bottom: 2px solid gray;
+}
+
+.pic_text {
+  margin-top: 15px;
+  border-bottom: 6px solid gray;
+  padding-bottom: 120px;
+  margin-bottom: 15px;
+  position: relative;
+  height: 110px;
+}
+
+.gray-text {
+  color: gray;
+  font-size: 11px;
+}
+
+.by {
+  margin-left: 63px;
+  margin-bottom: 6px;
+  font-size: 11px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -16px;
+  left: 45%;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 13px;
+}
+
+.opinion {
+  border-bottom: 2px solid gray;
+}
+
+.square {
+  position: absolute;
+  background-color: white;
+  width: 30%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+.square-magazine {
+  position: absolute;
+  background-color: white;
+  width: 65%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+.img-magazine-height-desktop {
+  height: 300px ;
+}
+
+.img-magazine-page-height-desktop {
+  height: 250px;
+}
+
+.button-tag-magazine-page {
+  color: white;
+  background-color: red;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+.tag-magazine-page {
+  color: red;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+.magazine-all-features {
+  background-color: gainsboro;
+}
+
+.square-travel {
+  position: absolute;
+  background-color: lavender;
+  width: 40%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.relative-img {
+  position: relative;
+}
+
+.debra img {
+  width: 100%;
+}
+
+.main-headings {
+  color: gray;
+  margin-top: 5%;
+}
+
+.content-my-turn {
+  color: gray;
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+.images-my-turn {
+  height: 150px;
+}
+
+.mit {
+  display: relative;
+}
+
+.UStitle {
+  color: red;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.Us-small-img {
+  height: 110px;
+}
+
+.Us-small-text {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.subscribe-title {
+  color: red;
+  font-weight: bolder;
+  font-size: 0.85rem;
+}
+
+.subscribe-title-description {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.subscribe-description {
+  font-size: 0.9rem;
+}
+
+.subscribe-button {
+  border: 0;
+  background-color: red;
+}
+
+.newsweek-bottom-img{
+  height: 100%;
+}
+
+.newsletter-title{
+  font-size: 1.3rem;
+  line-height: 1.1rem;
+}
+
+.newsletter-button{
+  border: 0;
+  padding: 2px;
+  background-color: red;
+  color: white;
+}
+
+.newsletter-email{
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.newsletter-description{
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+.background-gainsboro {
+  background-color:#f4f5f6;
+}
+
+.featured {
+  color: gray;
+  margin-top: 5%;
+}
+
+.mit img {
+  width: 100%;
+}
+
+.heading {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 13px;
+  margin-top: 5%;
+}
+
+.hidden_mob {
+  display: none;
+}
+
+.fe {
+  top: auto;
+}
+
+.turn img {
+  width: 100%;
+}
+
+.turns {
+  display: flex;
+}
+
+.up {
+  margin-top: 1%;
+}
+
+.bheading {
+  font-weight: bold;
+}
+
+.text {
+  font-size: 11px;
+}
+
+.sight {
+  margin-top: -1px;
+  width: 50%;
+  color: blue;
+}
+
+.last_opnion {
+  margin-bottom: 25%;
+}
+
+.margin_top {
+  margin-top: 25px;
+}
+
+.nstorty img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .polaska,
+  .pakistan,
+  .usa,
+  .edition {
+    margin-right: -35px;
+  }
+
+  .turn img {
+    width: 90%;
+    height: 60%;
+  }
+
+  .turns {
+    display: flex;
+  }
+
+  .deb {
+    margin-top: -30px;
+  }
+
+  .late {
+    margin-top: -70px;
+  }
+
+  .sight {
+    margin-left: -30px;
+    margin-top: -35px;
+    width: 70%;
+    color: blue;
+  }
+
+  .square {
+    top: auto;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .hidden_mob {
+    display: block;
+  }
+
+  .top {
+    margin-top: 3%;
+  }
+
+  .pos {
+    margin-top: -35px;
+  }
+
+  .posi {
+    margin-top: 3%;
+  }
+
+  .turn {
+    font-size: 12px;
+  }
+
+  .more_stories {
+    margin-top: 6%;
+  }
+
+  .nstorty img {
+    width: 30%;
+    padding-right: 2%;
+    padding-top: 2%;
+  }
+
+  .mobile_photos img {
+    width: 20%;
+  }
+
+  .mob-story {
+    background-color: blue;
+  }
+
+  .width {
+    width: 75vw;
+    border-bottom: 1px solid gray;
+  }
+}
+
+@media (min-width: 992px) {
+  .six {
+    font-size: 10px;
+  }
+
+  .col-lg-1-1 {
+    max-width: 5%;
+  }
+
+  .col-lg-2-2 {
+    max-width: 6.8%;
+  }
+
+  .col-lg-3-3 {
+    max-width: 9.6%;
+  }
+
+  .col-lg-4-4 {
+    max-width: 10.4%;
+  }
+
+  .col-lg-5-5 {
+    max-width: 13.3%;
+  }
+
+  .col-lg-6-6 {
+    max-width: 15.3%;
+  }
+
+  .co-lg-2-21 {
+    max-width: 16%;
+  }
+
+  .col-lg-1-2 {
+    max-width: 10%;
+  }
+
+  .hidden_desk {
+    display: none;
+  }
+
+  .news {
+    font-size: 3.4rem;
+  }
+
+  .fe {
+    top: auto;
+  }
+
+  .square {
+    top: auto;
+  }
+
+  .n-logo-small {
+    width: 30px;
+    height: 30px;
+  }
+
+}
