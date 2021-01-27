@@ -419,6 +419,10 @@ article img {
   margin-bottom: 60px;
 }
 
+.hidden {
+  display: block;
+}
+
 @media (min-width: 768px) {
   .polaska,
   .pakistan,
