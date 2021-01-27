@@ -113,11 +113,6 @@ footer {
   font-size: 0.8rem;
 }
 
-.footer-links {
-  /* width: 15%;
-  display: inline-block; */
-}
-
 .break::after {
   content: "\a\a";
   white-space: pre;
@@ -180,6 +175,18 @@ footer {
   display: flex;
   justify-content: center;
   color: red;
+  font-weight: bolder;
+}
+
+.square-insight{
+  position: absolute;
+  background-color: aliceblue;
+  width: 70%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  color: blue;
 }
 
 .square-magazine {
@@ -190,14 +197,6 @@ footer {
   display: flex;
   justify-content: center;
   color: red;
-}
-
-.img-magazine-height-desktop {
-  height: 300px ;
-}
-
-.img-magazine-page-height-desktop {
-  height: 250px;
 }
 
 .button-tag-magazine-page {
@@ -293,11 +292,7 @@ article img {
   background-color: red;
 }
 
-.newsweek-bottom-img{
-  height: 100%;
-}
-
-.newsletter-title{
+.newsletter-title {
   font-size: 1.3rem;
   line-height: 1.1rem;
 }
@@ -307,11 +302,6 @@ article img {
   padding: 2px;
   background-color: red;
   color: white;
-}
-
-.newsletter-email{
-  font-size: 0.8rem;
-  color: gray;
 }
 
 .newsletter-description{
@@ -531,6 +521,16 @@ article img {
     margin-right: -35px;
   }
 
+  .newsweek-bottom-img{
+    height: 220px;
+  }
+
+  .newsletter-email{
+    height: 100%;
+    font-size: 0.8rem;
+    color: gray;
+  }
+
   .turn img {
     width: 90%;
     height: 60%;
@@ -553,6 +553,14 @@ article img {
     margin-top: -35px;
     width: 70%;
     color: blue;
+  }
+
+  .img-magazine-height-desktop {
+    height: 250px ;
+  }
+
+  .img-magazine-page-height-desktop {
+    height: 200px;
   }
 
   .square {
@@ -601,6 +609,11 @@ article img {
     background-color: blue;
   }
 
+  .n-logo-small {
+    width: 27px;
+    height: 27px;
+  }
+
   .width {
     width: 75vw;
     border-bottom: 1px solid gray;
@@ -610,6 +623,15 @@ article img {
 @media (min-width: 992px) {
   .six {
     font-size: 10px;
+  }
+
+  .newsweek-bottom-img{
+    height: 100%;
+  }
+
+  .newsletter-email{
+    font-size: 0.8rem;
+    color: gray;
   }
 
   .col-lg-1-1 {
@@ -646,6 +668,14 @@ article img {
 
   .hidden_desk {
     display: none;
+  }
+
+  .img-magazine-height-desktop {
+    height: 300px ;
+  }
+
+  .img-magazine-page-height-desktop {
+    height: 250px;
   }
 
   .news {
