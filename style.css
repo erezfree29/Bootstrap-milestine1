@@ -22,7 +22,6 @@ footer {
 
 .one {
   background-color: #f72210;
-  width: 100%;
 }
 
 .btn-warning {
@@ -72,7 +71,7 @@ footer {
 }
 
 .news_red {
-  color: #f72210;
+  fill: #f72210;
 }
 
 .big {
@@ -178,24 +177,23 @@ footer {
   font-weight: bolder;
 }
 
-.square-insight {
+.square-all{
   position: absolute;
-  background-color: aliceblue;
   width: 70%;
   bottom: 0;
   display: flex;
   justify-content: center;
   font-weight: bolder;
+
+}
+
+.square-insight {
+  background-color: aliceblue;
   color: blue;
 }
 
 .square-magazine {
-  position: absolute;
   background-color: white;
-  width: 65%;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
   color: red;
 }
 
@@ -230,14 +228,6 @@ footer {
   position: relative;
 }
 
-article img {
-  width: 100%;
-}
-
-.debra img {
-  width: 100%;
-}
-
 .main-headings {
   color: gray;
   margin-top: 5%;
@@ -261,10 +251,6 @@ article img {
   color: red;
   font-weight: bolder;
   font-size: 1.2rem;
-}
-
-.Us-small-img {
-  height: 110px;
 }
 
 .Us-small-text {
@@ -318,10 +304,6 @@ article img {
   margin-top: 5%;
 }
 
-.mit img {
-  width: 100%;
-}
-
 .heading {
   font-size: 17px;
   font-weight: bold;
@@ -338,10 +320,6 @@ article img {
 
 .fe {
   top: auto;
-}
-
-.turn img {
-  width: 100%;
 }
 
 .turns {
@@ -395,7 +373,6 @@ article img {
 }
 
 .image_banner img {
-  width: 100%;
   height: 70vh;
 }
 
@@ -414,14 +391,9 @@ article img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   color: black;
   font-weight: bold;
   font-size: 1.3rem;
-}
-
-.exec img {
-  width: 100%;
 }
 
 .cover_news {
@@ -474,15 +446,6 @@ article img {
   height: 20vh;
 }
 
-.exnews img {
-  width: 100%;
-}
-
-.arabia img {
-  width: 100%;
-  height: 50vh;
-}
-
 .subscribe {
   display: flex;
   justify-content: center;
@@ -500,7 +463,6 @@ article img {
 }
 
 .nmobile img {
-  width: 100%;
   height: 30vh;
 }
 
@@ -521,12 +483,7 @@ article img {
     margin-right: -35px;
   }
 
-  .newsweek-bottom-img {
-    height: 220px;
-  }
-
   .newsletter-email {
-    height: 100%;
     font-size: 0.8rem;
     color: gray;
   }
@@ -623,10 +580,6 @@ article img {
 @media (min-width: 992px) {
   .six {
     font-size: 10px;
-  }
-
-  .newsweek-bottom-img {
-    height: 100%;
   }
 
   .newsletter-email {
