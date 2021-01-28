@@ -517,7 +517,7 @@ nav {
   }
 
   .one {
-    width: 100%;
+    width: 94vw;
   }
 
   .newsletter-email {
@@ -683,5 +683,9 @@ nav {
   .n-logo-small {
     width: 30px;
     height: 30px;
+  }
+
+  .one {
+    width: 100%;
   }
 }
