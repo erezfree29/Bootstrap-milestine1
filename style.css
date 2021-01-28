@@ -18,10 +18,12 @@ footer {
 
 .container {
   width: 100%;
+  background-color: white;
 }
 
 .one {
   background-color: #f72210;
+  width: 100vw;
 }
 
 .btn-warning {
@@ -382,13 +384,12 @@ footer {
 }
 
 .features {
-  padding-top: 5%;
+  padding-top: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
-  font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .cover_news {
@@ -475,12 +476,35 @@ footer {
   background-color: #f4f5f6;
   width: 90%;
   margin-left: 5%;
-  height: 45vh;
+  height: 85vh;
 }
 
 .ar {
-  margin-left: 10px;
-  padding-top: 25px;
+  margin-left: 40px;
+  padding-top: 15px;
+}
+
+.arabia {
+  position: relative;
+  margin-bottom: 8%;
+}
+
+.pweek {
+  position: absolute;
+  top: 30px;
+  left: 130px;
+}
+
+.read {
+  padding-top: 37px;
+}
+
+body {
+  background-color: #f4f5f6;
+}
+
+nav {
+  background-color: white;
 }
 
 @media (min-width: 768px) {
@@ -489,6 +513,10 @@ footer {
   .usa,
   .edition {
     margin-right: -35px;
+  }
+
+  .one {
+    width: 100%;
   }
 
   .newsletter-email {
