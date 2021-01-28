@@ -177,14 +177,13 @@ footer {
   font-weight: bolder;
 }
 
-.square-all{
+.square-all {
   position: absolute;
   width: 70%;
   bottom: 0;
   display: flex;
   justify-content: center;
   font-weight: bolder;
-
 }
 
 .square-insight {
@@ -369,11 +368,7 @@ footer {
 }
 
 .apple img {
-  width: 13%;
-}
-
-.image_banner img {
-  height: 70vh;
+  width: 10%;
 }
 
 .tdate {
@@ -419,12 +414,8 @@ footer {
 }
 
 .wcover {
-  margin-left: 0.1%;
+  margin-left: 3%;
   padding: 2%;
-}
-
-.apple_img {
-  padding-right: 1%;
 }
 
 .nusa {
@@ -433,6 +424,7 @@ footer {
   margin-top: 10%;
   margin-bottom: 2%;
   font-weight: bold;
+  margin-left: 3%;
 }
 
 .tiger {
@@ -473,6 +465,22 @@ footer {
 
 .hidden {
   display: block;
+}
+
+.exec {
+  margin-left: 3%;
+}
+
+.card {
+  background-color: #f4f5f6;
+  width: 90%;
+  margin-left: 5%;
+  height: 45vh;
+}
+
+.ar {
+  margin-left: 10px;
+  padding-top: 25px;
 }
 
 @media (min-width: 768px) {
