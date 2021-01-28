@@ -177,14 +177,13 @@ footer {
   font-weight: bolder;
 }
 
-.square-all{
+.square-all {
   position: absolute;
   width: 70%;
   bottom: 0;
   display: flex;
   justify-content: center;
   font-weight: bolder;
-
 }
 
 .square-insight {
