@@ -22,7 +22,6 @@ footer {
 
 .one {
   background-color: #f72210;
-  width: 100%;
 }
 
 .btn-warning {
@@ -72,7 +71,7 @@ footer {
 }
 
 .news_red {
-  color: #f72210;
+  fill: #f72210;
 }
 
 .big {
@@ -111,11 +110,6 @@ footer {
 
 .six {
   font-size: 0.8rem;
-}
-
-.footer-links {
-  /* width: 15%;
-  display: inline-block; */
 }
 
 .break::after {
@@ -180,6 +174,43 @@ footer {
   display: flex;
   justify-content: center;
   color: red;
+  font-weight: bolder;
+}
+
+.square-all {
+  position: absolute;
+  width: 70%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+.square-insight {
+  background-color: aliceblue;
+  color: blue;
+}
+
+.square-magazine {
+  background-color: white;
+  color: red;
+}
+
+.button-tag-magazine-page {
+  color: white;
+  background-color: red;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+.tag-magazine-page {
+  color: red;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+.magazine-all-features {
+  background-color: gainsboro;
 }
 
 .square-travel {
@@ -194,10 +225,6 @@ footer {
 
 .relative-img {
   position: relative;
-}
-
-.debra img {
-  width: 100%;
 }
 
 .main-headings {
@@ -219,13 +246,61 @@ footer {
   display: relative;
 }
 
+.UStitle {
+  color: red;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.Us-small-text {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.subscribe-title {
+  color: red;
+  font-weight: bolder;
+  font-size: 0.85rem;
+}
+
+.subscribe-title-description {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.subscribe-description {
+  font-size: 0.9rem;
+}
+
+.subscribe-button {
+  border: 0;
+  background-color: red;
+}
+
+.newsletter-title {
+  font-size: 1.3rem;
+  line-height: 1.1rem;
+}
+
+.newsletter-button {
+  border: 0;
+  padding: 2px;
+  background-color: red;
+  color: white;
+}
+
+.newsletter-description {
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+.background-gainsboro {
+  background-color: #f4f5f6;
+}
+
 .featured {
   color: gray;
   margin-top: 5%;
-}
-
-.mit img {
-  width: 100%;
 }
 
 .heading {
@@ -244,10 +319,6 @@ footer {
 
 .fe {
   top: auto;
-}
-
-.turn img {
-  width: 100%;
 }
 
 .turns {
@@ -284,12 +355,136 @@ footer {
   width: 100%;
 }
 
+.apple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.image_banner {
+  position: relative;
+}
+
+.apple img {
+  width: 13%;
+}
+
+.image_banner img {
+  height: 70vh;
+}
+
+.tdate {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  width: 50%;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.features {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.cover_news {
+  display: flex;
+  align-items: center;
+}
+
+.nnews {
+  color: red;
+}
+
+.cover {
+  margin-left: 3%;
+  margin-right: 7%;
+  background-color: red;
+  color: white;
+  padding: 5%;
+}
+
+.fbi {
+  margin-left: 2%;
+  margin-bottom: 4%;
+}
+
+.wcover {
+  margin-left: 0.1%;
+  padding: 2%;
+}
+
+.apple_img {
+  padding-right: 1%;
+}
+
+.nusa {
+  font-size: 1.2rem;
+  color: red;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+
+.tiger {
+  display: flex;
+  padding-top: 10%;
+}
+
+.tiger img {
+  width: 40%;
+  padding-right: 5%;
+  height: 20vh;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-secondary {
+  background-color: red;
+}
+
+.btn-primary {
+  color: gray;
+  background-color: transparent;
+  border-color: gray;
+  margin-right: 3%;
+}
+
+.nmobile img {
+  height: 30vh;
+}
+
+.buttons {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.hidden {
+  display: block;
+}
+
 @media (min-width: 768px) {
   .polaska,
   .pakistan,
   .usa,
   .edition {
     margin-right: -35px;
+  }
+
+  .newsletter-email {
+    font-size: 0.8rem;
+    color: gray;
   }
 
   .turn img {
@@ -314,6 +509,14 @@ footer {
     margin-top: -35px;
     width: 70%;
     color: blue;
+  }
+
+  .img-magazine-height-desktop {
+    height: 250px;
+  }
+
+  .img-magazine-page-height-desktop {
+    height: 200px;
   }
 
   .square {
@@ -362,6 +565,11 @@ footer {
     background-color: blue;
   }
 
+  .n-logo-small {
+    width: 27px;
+    height: 27px;
+  }
+
   .width {
     width: 75vw;
     border-bottom: 1px solid gray;
@@ -371,6 +579,11 @@ footer {
 @media (min-width: 992px) {
   .six {
     font-size: 10px;
+  }
+
+  .newsletter-email {
+    font-size: 0.8rem;
+    color: gray;
   }
 
   .col-lg-1-1 {
@@ -409,6 +622,14 @@ footer {
     display: none;
   }
 
+  .img-magazine-height-desktop {
+    height: 300px;
+  }
+
+  .img-magazine-page-height-desktop {
+    height: 250px;
+  }
+
   .news {
     font-size: 3.4rem;
   }
@@ -419,5 +640,10 @@ footer {
 
   .square {
     top: auto;
+  }
+
+  .n-logo-small {
+    width: 30px;
+    height: 30px;
   }
 }
