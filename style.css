@@ -108,7 +108,6 @@ svg {
 }
 
 .edition {
-  font-weight: bolder;
   color: black;
 }
 
@@ -220,7 +219,6 @@ svg {
 .arrow-right-small {
   border: solid white;
   border-width: 0 3px 3px 0;
-  display: inline-block;
   padding: 3px;
   vertical-align: 1px;
   transform: rotate(-45deg);
@@ -308,7 +306,6 @@ svg {
 
 .newsletter-button {
   border: 0;
-  font-weight: bolder;
   padding: 2px;
   background-color: red;
   color: white;
@@ -381,9 +378,6 @@ svg {
 }
 
 .apple {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -470,9 +464,6 @@ svg {
 
 .btn-secondary {
   background-color: red;
-  margin-left: 10px;
-   height: 40px;
-  font-size: 12px;
 }
 
 .btn-primary {
@@ -489,10 +480,6 @@ svg {
 .buttons {
   margin-top: 30px;
   margin-bottom: 60px;
-}
-
-.hidden {
-  display: block;
 }
 
 .exec {
@@ -512,7 +499,6 @@ svg {
 }
 
 .arabia {
-  position: relative;
   margin-bottom: 8%;
 }
 
@@ -524,7 +510,6 @@ svg {
 
 .heading-2-text {
   color: gray;
-  font-weight: bolder;
 }
 
 .read {
@@ -555,22 +540,6 @@ a:hover {
 
 h6 {
   color: #818181;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  width: 130px;
-}
-
-.depth {
-  position: absolute;
-  font-size: 14px;
-  top: 160px;
-  width: 220px;
-  left: 60px;
 }
 
 @media (min-width: 768px) {
@@ -687,7 +656,6 @@ textarea {
 
   .subscribe-title-description {
     font-size: 1.4rem;
-    font-weight: bolder;
   }
 
   .col-lg-1-1 {
