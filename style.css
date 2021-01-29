@@ -545,6 +545,22 @@ h6 {
   color: #818181;
 }
 
+button,
+input,
+optgroup,
+select,
+textarea {
+  width: 130px;
+}
+
+.depth {
+  position: absolute;
+  font-size: 14px;
+  top: 160px;
+  width: 220px;
+  left: 60px;
+}
+
 @media (min-width: 768px) {
   .polaska,
   .pakistan,
