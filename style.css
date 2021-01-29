@@ -508,6 +508,10 @@ nav {
   background-color: white;
 }
 
+body a {
+  color: black;
+}
+
 @media (min-width: 768px) {
   .polaska,
   .pakistan,
