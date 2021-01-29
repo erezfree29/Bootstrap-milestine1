@@ -551,6 +551,10 @@ a:hover{
 }
 
 
+h6 {
+  color: #818181;
+}
+
 @media (min-width: 768px) {
   .polaska,
   .pakistan,
@@ -560,7 +564,7 @@ a:hover{
   }
 
   .one {
-    max-width: 100%;
+    width: 100%;
   }
 
   .newsletter-email {
