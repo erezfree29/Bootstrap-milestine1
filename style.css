@@ -531,6 +531,10 @@ nav {
   background-color: white;
 }
 
+body a {
+  color: black;
+}
+
 a:hover{
   color: #f72210;
   cursor: pointer;
@@ -540,6 +544,7 @@ a:hover{
 .footer-links:hover{
   color: black;
 }
+
 
 @media (min-width: 768px) {
   .polaska,
@@ -560,7 +565,6 @@ a:hover{
 
   .turn img {
     width: 90%;
-    height: 60%;
   }
 
   .turns {
@@ -569,10 +573,6 @@ a:hover{
 
   .deb {
     margin-top: -30px;
-  }
-
-  .late {
-    margin-top: -70px;
   }
 
   .sight {
