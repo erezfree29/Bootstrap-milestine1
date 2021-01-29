@@ -512,6 +512,10 @@ body a {
   color: black;
 }
 
+h6 {
+  color: #818181;
+}
+
 @media (min-width: 768px) {
   .polaska,
   .pakistan,
@@ -521,7 +525,7 @@ body a {
   }
 
   .one {
-    width: 94vw;
+    width: 100%;
   }
 
   .newsletter-email {
