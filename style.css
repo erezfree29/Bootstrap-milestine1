@@ -516,6 +516,10 @@ h6 {
   color: #818181;
 }
 
+.cright {
+  margin-left: -2%;
+}
+
 @media (min-width: 768px) {
   .polaska,
   .pakistan,
