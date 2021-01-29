@@ -21,7 +21,7 @@ svg {
   height: 35px;
 }
 
-.footer-links{
+.footer-links {
   color: gray;
   font-weight: 500;
 }
@@ -216,8 +216,8 @@ svg {
   font-size: 1.1rem;
   font-weight: bolder;
 }
-.arrow-right-small{
- 
+
+.arrow-right-small {
   border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
@@ -519,7 +519,7 @@ svg {
   left: 130px;
 }
 
-.heading-2-text{
+.heading-2-text {
   color: gray;
   font-weight: bolder;
 }
@@ -540,16 +540,15 @@ body a {
   color: black;
 }
 
-a:hover{
+a:hover {
   color: #f72210;
   cursor: pointer;
   text-decoration: none;
 }
 
-.footer-links:hover{
+.footer-links:hover {
   color: black;
 }
-
 
 h6 {
   color: #818181;
