@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+svg {
+  height: 35px;
+}
+
 .footer-links{
   color: gray;
   font-weight: 500;
@@ -28,12 +32,13 @@ a {
 
 .container {
   width: 100%;
+  max-width: 100%;
   background-color: white;
 }
 
 .one {
   background-color: #f72210;
-  width: 100vw;
+  max-width: 100%;
 }
 
 .btn-warning {
@@ -555,7 +560,7 @@ a:hover{
   }
 
   .one {
-    width: 94vw;
+    max-width: 100%;
   }
 
   .newsletter-email {
@@ -726,5 +731,11 @@ a:hover{
 
   .one {
     width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
   }
 }
