@@ -531,7 +531,6 @@ body a {
 
   .turn img {
     width: 90%;
-    height: 60%;
   }
 
   .turns {
@@ -540,10 +539,6 @@ body a {
 
   .deb {
     margin-top: -30px;
-  }
-
-  .late {
-    margin-top: -70px;
   }
 
   .sight {
