@@ -14,7 +14,7 @@ Bootstrap
 
 ## Live Demo
 
-<!-- [Try a lıve demo](https://microverse-tnw-clone.netlify.app/) -->
+https://erezfree29.github.io/New-week-clone/
 
 ## Authors 👤
 
