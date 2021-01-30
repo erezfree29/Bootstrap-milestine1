@@ -26,6 +26,10 @@ svg {
   font-weight: 500;
 }
 
+.free-sign-up-desktop {
+  background-color: #f4f5f6 !important;
+}
+
 .date {
   color: white;
 }
@@ -665,6 +669,10 @@ textarea {
 @media (min-width: 992px) {
   .six {
     font-size: 10px;
+  }
+
+  .n-logo-desktop-right{
+    height: 30px;
   }
 
   .newsletter-email {
