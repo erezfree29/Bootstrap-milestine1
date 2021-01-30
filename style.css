@@ -12,16 +12,41 @@ footer {
   color: gray;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+svg {
+  height: 35px;
+}
+
+.footer-links {
+  color: gray;
+  font-weight: 500;
+}
+
+.free-sign-up-desktop {
+  background-color: #f4f5f6 !important;
+}
+
 .date {
   color: white;
 }
 
 .container {
   width: 100%;
+  max-width: 100%;
+  background-color: white;
 }
 
 .one {
   background-color: #f72210;
+  max-width: 100%;
 }
 
 .btn-warning {
@@ -91,21 +116,12 @@ footer {
 }
 
 .edition {
-  font-weight: bolder;
+  color: black;
 }
 
-.polaska,
-.pakistan,
-.china,
-.romania,
-.usa,
+.footer-links,
 .edition {
-  font-size: 0.8rem;
-}
-
-.four {
-  display: flex;
-  align-items: center;
+  font-size: 0.9rem;
 }
 
 .six {
@@ -201,6 +217,15 @@ footer {
   background-color: red;
   font-size: 1.1rem;
   font-weight: bolder;
+}
+
+.arrow-right-small {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  padding: 3px;
+  vertical-align: 1px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 .tag-magazine-page {
@@ -356,9 +381,6 @@ footer {
 }
 
 .apple {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -368,11 +390,8 @@ footer {
 }
 
 .apple img {
-  width: 13%;
-}
-
-.image_banner img {
-  height: 70vh;
+  width: 10%;
+  margin-right: 3%;
 }
 
 .tdate {
@@ -386,13 +405,12 @@ footer {
 }
 
 .features {
-  padding-top: 5%;
+  padding-top: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
-  font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .cover_news {
@@ -418,12 +436,8 @@ footer {
 }
 
 .wcover {
-  margin-left: 0.1%;
+  margin-left: 3%;
   padding: 2%;
-}
-
-.apple_img {
-  padding-right: 1%;
 }
 
 .nusa {
@@ -432,6 +446,7 @@ footer {
   margin-top: 10%;
   margin-bottom: 2%;
   font-weight: bold;
+  margin-left: 3%;
 }
 
 .tiger {
@@ -453,8 +468,8 @@ footer {
 .btn-secondary {
   background-color: red;
   margin-left: 10px;
-   height: 40px;
-   font-size: 12px;
+  height: 40px;
+  font-size: 12px;
 }
 
 .btn-primary {
@@ -473,8 +488,84 @@ footer {
   margin-bottom: 60px;
 }
 
-.hidden {
-  display: block;
+.exec {
+  margin-left: 3%;
+}
+
+.card {
+  background-color: #f4f5f6;
+  width: 90%;
+  margin-left: 5%;
+  height: 85vh;
+}
+
+.ar {
+  margin-left: 40px;
+  padding-top: 15px;
+}
+
+.arabia {
+  margin-bottom: 8%;
+}
+
+.pweek {
+  position: absolute;
+  top: 30px;
+  left: 130px;
+}
+
+.heading-2-text {
+  color: gray;
+}
+
+.read {
+  padding-top: 37px;
+}
+
+body {
+  background-color: #f4f5f6;
+}
+
+nav {
+  background-color: white;
+}
+
+body a {
+  color: black;
+}
+
+ul li {
+  display: inline;
+}
+
+a:hover {
+  color: #f72210;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-links:hover {
+  color: black;
+}
+
+h6 {
+  color: #818181;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  width: 130px;
+}
+
+.depth {
+  position: absolute;
+  font-size: 14px;
+  top: 160px;
+  width: 220px;
+  left: 60px;
 }
 
 @media (min-width: 768px) {
@@ -485,6 +576,10 @@ footer {
     margin-right: -35px;
   }
 
+  .one {
+    width: 100%;
+  }
+
   .newsletter-email {
     font-size: 0.8rem;
     color: gray;
@@ -492,7 +587,6 @@ footer {
 
   .turn img {
     width: 90%;
-    height: 60%;
   }
 
   .turns {
@@ -501,10 +595,6 @@ footer {
 
   .deb {
     margin-top: -30px;
-  }
-
-  .late {
-    margin-top: -70px;
   }
 
   .sight {
@@ -574,7 +664,7 @@ footer {
   }
 
   .width {
-    width: 75vw;
+    width: 90vw;
     border-bottom: 1px solid gray;
   }
 }
@@ -584,9 +674,18 @@ footer {
     font-size: 10px;
   }
 
+  .n-logo-desktop-right {
+    height: 30px;
+  }
+
   .newsletter-email {
-    font-size: 0.8rem;
+    font-size: 0.86rem;
+    font-weight: 500;
     color: gray;
+  }
+
+  .subscribe-title-description {
+    font-size: 1.4rem;
   }
 
   .col-lg-1-1 {
@@ -648,5 +747,15 @@ footer {
   .n-logo-small {
     width: 30px;
     height: 30px;
+  }
+
+  .one {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
   }
 }
