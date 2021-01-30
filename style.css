@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 svg {
   height: 35px;
 }
@@ -533,6 +537,10 @@ nav {
 
 body a {
   color: black;
+}
+
+ul li {
+  display: inline;
 }
 
 a:hover {
